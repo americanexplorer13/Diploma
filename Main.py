@@ -316,7 +316,7 @@ class Ui_MainWindow(object):
 if __name__ == "__main__":
     import sys
     import pymysql
-    connection = pymysql.connect(host='stepanev.beget.tech', user='stepanev_test', password='123456789qwertY', db='stepanev_test', charset='utf8mb4', cursorclass=pymysql.cursors.DictCursor)
+    connection = pymysql.connect(host='', user='', password='', db='', charset='utf8mb4', cursorclass=pymysql.cursors.DictCursor)
     app = QtWidgets.QApplication(sys.argv)
     MainWindow = QtWidgets.QMainWindow()
     ui = Ui_MainWindow()
